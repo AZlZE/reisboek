@@ -8,5 +8,5 @@ Voor de interactie van dark mode en de wiel van pop up heb ik AI gebruikt.
 De meeste heb ik via youtube of van wat we al gezien hebben.
 Zie hier de link van mijn lo-fi wireframes.
 https://www.figma.com/design/x7UByE5rrwi4kblg25eUC1/Untitled?node-id=0-1&t=sc8MEYJzipxNBBQV-1
-
+ Mijn images zijn veel te groot en daardoor kon ik ze niet uploaden, mijn excuses.
 ™
