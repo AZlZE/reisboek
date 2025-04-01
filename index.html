@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/screen.css">
+    <title>Reisbureau</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button id="darkModeToggle"> Dark Mode</button>
+
+        <div class="nav-container">
+          <div class="left-item">
+            <a href="index.html"><img src="images/travel-the-world.png" alt=""></a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="reizen.html">Reizen</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="overhetbedrijf.html">Over het bedrijf</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-index">
+      
+      <section class="intro">
+        <div id="progress-bar"></div>
+
+        <div class="intro-content">
+          <div class="tekst-intro">
+            <h1>Vakanties voor iedereen om van te genieten!</h1>
+            <p>Bekijk de maandelijkse promoties!</p>
+          </div>
+          <div id="promo">Mis deze kans niet!
+            -20% korting op alle boekingen
+          </div>
+          <div id="timer"></div>
+      
+          <div class="options">
+            
+      
+            <input type="date">
+            <select>
+              <!-- dagen opties-->
+              <option>1 dag</option>
+              <option>2 dagen</option>
+              <option>3 dagen</option>
+              <option>4 dagen</option>
+              <option>5 dagen</option>
+              <option>6 dagen</option>
+              <option>7 dagen</option>
+              <option>8 dagen</option>
+              <option>9 dagen</option>
+              <option>10 dagen</option>
+              <option>11 dagen</option>
+              <option>12 dagen</option>
+              <option>13 dagen</option>
+              <option>14 dagen</option>
+              <option>15 dagen</option>
+              <option>16 dagen</option>
+              <option>17 dagen</option>
+              <option>18 dagen</option>
+              <option>19 dagen</option>
+              <option>20 dagen</option>
+              <option>21 dagen</option>
+              <option>22 dagen</option>
+              <option>23 dagen</option>
+              <option>24 dagen</option>
+              <option>25 dagen</option>
+              <option>26 dagen</option>
+              <option>27 dagen</option>
+              <option>28 dagen</option>
+              <option>29 dagen</option>
+              <option>30 dagen</option>
+              <option>31 dagen</option>
+            </select>
+            <select>
+              <!-- kamers & reiziger opties-->
+              <option>1 kamer(s), 1 reiziger</option>
+              <option>1 kamer(s), 2 reizigers</option>
+              <option>2 kamer(s), 2 reizigers</option>
+            </select>
+            <input type="text" placeholder="Bestemming">
+            
+          </div>
+        </div>
+        <button id="toonVakantiesBtn">Toon alle vakanties</button>
+      </section>
+      <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Waag je kans!</h2>
+            <p>Spin het wiel en win een korting op je volgende reis!</p>
+            <canvas id="wheelCanvas" width="300" height="300"></canvas>
+            <button id="spinButton">Draai het wiel</button>
+            <button id="closePopup">Sluiten</button>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1"></script>
+    
+    <button id="quoteButton">Motivatie</button>
+    <p id="quoteText"> Reizen maakt je rijker!</p> 
+   
+      <div class="intro-reizen-container">
+        <section class="intro-reizen">
+          <h2>Verschillende reizen staan op jouw te wachten!</h2>
+          <article class="intro-reis">
+            <img src="images/strand.jpeg" alt="">
+            <h2>Speciale Aanbieding: Strandvakanties in 2025</h2>
+            <p>Geniet van exclusieve kortingen op de mooiste strandvakanties! Witte zandstranden, kristalhelder water en zonovergoten dagen wachten op jou. Boek nu en ontvang tot 30% korting!</p>
+            <a href="reizen.html" class="read-more">Lees meer</a>
+          </article>
+      
+          <article class="intro-reis">
+            <img src="images/berg.jpeg" alt="">
+            <h2>Avontuurlijke bergreizen</h2>
+            <p>Ben je een avonturier? Bekijk onze gids voor de mooiste bergtochten en ontdek de geheimen van de natuur.</p>
+            <a href="reizen.html" class="read-more">Lees meer</a>
+          </article>
+      
+          <article class="intro-reis">
+            <img src="images/rome.jpeg" alt="">
+            <h2>Top 5 stedentrips in Europa</h2>
+            <p>Verken historische steden, cultuur en culinaire hoogstandjes met onze aanbevelingen voor stedentrips.</p>
+            <a href="reizen.html" class="read-more">Lees meer</a>
+          </article>
+      
+          <article class="intro-reis">
+            <img src="images/jungle.jpeg" alt="">
+            <h2>Verken de ongerepte jungles</h2>
+            <p>Dompel jezelf onder in het groen en ontdek exotische dieren, watervallen en mysterieuze landschappen.</p>
+            <a href="reizen.html" class="read-more">Lees meer</a>
+          </article>
+      
+          <article class="intro-reis">
+            <img src="images/noordlicht.jpeg" alt="">
+            <h2>Bekijk het magische noorderlicht</h2>
+            <p>Een bucketlist-ervaring: aanschouw het noorderlicht in landen zoals Noorwegen, IJsland of Finland.</p>
+            <a href="reizen.html" class="read-more">Lees meer</a>
+          </article>
+        </section>
+      </div>
+      
+    </main>
+    <div id="poll">
+      <h3>Hoeveel toeristen gaan er per jaar naar Tokyo?</h3>
+      <div id="poll-options"></div>
+  </div>
+  
+    <footer>
+      <p>Deze tekst is gegenereerd door ChatGPT en de afbeeldingen zijn afkomstig van Adobe Stock.</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
